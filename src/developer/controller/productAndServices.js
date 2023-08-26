@@ -1,12 +1,10 @@
 import productInformation from "../models/productAndServices.js";
-// import personalInformation from "../models/personalInformation.js";
 
 //ADMIN -> Add Product Info
 class productAndServices{
 
     // add a product to shop
     static addProductInformation = async (req, res) => {
-        // console.log(req.body);
 
         try {        
             const addProInformation = {
